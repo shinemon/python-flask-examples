@@ -6,7 +6,7 @@ api = Api(app)
 
 @app.route('/employee')
 def get(self):
-    result = {'employee': 'shine test'}
+    result = {'employee': 'shine test '}
     return jsonify(result)
 
 if __name__ == '__main__':
